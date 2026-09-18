@@ -1,0 +1,59 @@
+﻿# ==============================
+# RUDRA AI - Git Ignore
+# ==============================
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local AI memory / user data
+rudra_memory.json
+memory.json
+rudra_settings.json
+settings.json
+
+# Local backups
+*_backup.py
+BACKUP_*
+*.bak
+
+# Debug / temporary files
+*_debug.*
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Python test/cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local model/runtime files
+*.gguf
+*.bin
+*.safetensors
+
+# Temporary text/test files
+hello.txt
+test.txt
